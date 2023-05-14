@@ -1,8 +1,35 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-#active {
-    background-color: white;
-    color: steelblue;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, section, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #d41fb9;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  blockquote {
+    font-style: italic;
+  }
+  
+  #faith-section ol {
+    list-style-type: decimal;
+  }
+  
+  footer {
+    background-color: #c92292;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 24px;
+  }
