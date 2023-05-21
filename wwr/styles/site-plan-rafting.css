@@ -5,10 +5,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #274029  ;
-  --secondary-color: #315C2B ;
-  --accent1-color: #60712F;
-  --accent2-color: #9EA93F;
+  --primary-color: #0fdf20  ;
+  --secondary-color: #165d0c ;
+  --accent1-color: #27300d;
+  --accent2-color: #dff520;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Rock Salt;
@@ -31,16 +31,17 @@ Fonts are separated by a & */
 
 body {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
-  background-color: #60712F;
+  background-color: #e2f1b4;
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -48,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -59,7 +61,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
-  background-color: #274029;
+  background-color: #277c2e;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -112,8 +114,9 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
-  color:antiquewhite;
+  padding: 35px;
+  color:#fcfbfb;
+  text-align: center;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -164,4 +167,3 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
