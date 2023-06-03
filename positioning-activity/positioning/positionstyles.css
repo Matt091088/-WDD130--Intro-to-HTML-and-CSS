@@ -153,11 +153,11 @@ grid-row: 3;
    
 }
 .text {
-    margin-top: 0;
-    padding-left: 70px;
-    box-sizing: border-box;
-    position: relative;
-    margin: auto;
+margin-top: 0;
+padding-left: 70px;
+box-sizing: border-box;
+position: relative;
+margin: auto;
 }
 .red5 { 
 width: 100%; 
