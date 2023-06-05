@@ -13,7 +13,6 @@ h2 {
 header {
   background-color: rgba(20, 30, 13, .7);
   width: 100%;
-  height: 100px;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -188,7 +187,6 @@ main section img {
 }
 #hero-images {
   width: 100%;
-  height: 100%;
 }
 #hero {
   display: grid;
