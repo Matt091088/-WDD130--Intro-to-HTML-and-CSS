@@ -176,43 +176,5 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-/* From here about us page css */
-.about-content {
-  display: flex;
-  align-items: center;
-}
 
-.about-image {
-  width: 100%; 
-  margin-right: 20px; 
-}
-
-.about-text {
-  flex: 1;
-}
-
-.footer-section {
-  padding: 3em;
-  text-align: center;
-  color: #000000;
-  background-color: #999;
-  height: 150px;
-}
-
-.copy-text {
-  color: #fff;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.social-icons {
-  margin-top: 10px;
-}
-
-.social-icons a {
-  display: inline-block;
-  margin-right: 10px;
-  color: #fff;
-  font-size: 20px;
-}
 
