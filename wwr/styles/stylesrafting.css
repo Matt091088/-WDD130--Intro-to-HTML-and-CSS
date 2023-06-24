@@ -205,13 +205,14 @@ main section img {
 }
 
 /* subpage */
-  
 footer {
-    height: 100px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 20px;
-  }
+  background-color: #6f7364;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
   
 html, body {
   height: 100%;
