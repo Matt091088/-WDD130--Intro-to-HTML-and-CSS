@@ -175,6 +175,37 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.logo {
+  float: left;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-top: -10px; 
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+main {
+  margin-bott
+
+}
+header .button {
+  margin-right: 1000px; /* Ajusta este valor para la separación deseada */
+}
 
 
 
