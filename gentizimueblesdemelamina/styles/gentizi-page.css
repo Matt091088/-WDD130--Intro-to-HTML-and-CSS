@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #eaeaea; 
+    padding: 10px; 
+  }
+  header {
+    background-color: #b97714;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #6e6b6b;
+    padding: 20px;
+  }
+  .button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #e0840b;
+  }
