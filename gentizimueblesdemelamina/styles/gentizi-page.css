@@ -1,30 +1,96 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px;
-  }
+body { 
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #c89917;
+  height: 200px;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+.logo {
+  position: absolute;
   
-  .grid-item {
-    background-color: #eaeaea; 
-    padding: 10px; 
-  }
-  header {
-    background-color: #b97714;
-    padding: 20px;
-  }
+}
+
+.logo img {
+  height: 200px;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+nav a {
+  justify-content: center;
+  text-decoration: none;
+  color: #080808;
+  margin: 0 150px;
+  padding: 10px 30px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.navigation { 
+  margin-top: auto;
+}
+nav a:hover {
+  color: rgb(243, 243, 14);
+}
+
+footer {
+  height: 200px;
+  background-color: #746f6f;
+  text-align: center;
   
-  footer {
-    background-color: #6e6b6b;
-    padding: 20px;
-  }
-  .button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .button:hover {
-    background-color: #e0840b;
-  }
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+
+header h1:first-of-type {
+  font-size: 100px; /* Tamaño de la letra */
+  color: #0e0d0c;
+  text-align: center; /* Alineación del texto */
+  position: absolute;
+  top: 2%; /* Coloca el elemento en la mitad de la altura del contenedor padre */
+  left: 50%; /* Coloca el elemento en la mitad del ancho del contenedor padre */
+  transform: translate(-50%, -50%); /* Centra el elemento en relación al punto medio */
+}
+
+header h2:first-of-type {
+  font-size: 50px; /* Tamaño de la letra */
+  color: #746f6f;
+  text-align: center; /* Alineación del texto */
+  position: absolute;
+  top: 10%; /* Coloca el elemento en la mitad de la altura del contenedor padre */
+  left: 50%; /* Coloca el elemento en la mitad del ancho del contenedor padre */
+  transform: translate(-50%, -50%); /* Centra el elemento en relación al punto medio */
+}
+main {
+  width: 100%;
+  padding: 500px;
+  box-sizing: border-box;
+}
+footer {
+  position: relative;
+}
+
+.footer-section {
+  position: absolute;
+  bottom: -10px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+  width: 100%;
+  text-align: center;
+}
+
