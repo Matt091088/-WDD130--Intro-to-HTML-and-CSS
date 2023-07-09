@@ -94,3 +94,25 @@ footer {
   text-align: center;
 }
 
+
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+.image-container img {
+  width: 100%; /* Establece el ancho deseado */
+  height: auto; /* Ajusta automáticamente la altura de acuerdo a la relación de aspecto */
+}
