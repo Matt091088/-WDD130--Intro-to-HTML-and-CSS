@@ -10,60 +10,60 @@
 
 <body>
   <header>
-      <h1>Gentizi Melamine</h1>
-      <h2>Furnitures</h2>
+    <h1>Gentizi Melamine</h1>
+    <h2>Furnitures</h2>
     <div class="logo">
-    <img src="images/gentizi-optimized.svg" alt="Gentizi logo">
+      <img src="images/gentizi-optimized.svg" alt="Gentizi logo">
+    </div>
     <nav class="navigation">
       <a href="index.html" class="button">Home</a>
       <a href="aboutus.html" class="button">About Us</a>
       <a href="ourfurniture.html" class="button">Our Furniture</a>
       <a href="contactus.html" class="button">Contact Us</a>
     </nav>
-  </div>
   </header>
   <main>
     <section>
       <h2>Welcome to Gentizi Melamine</h2>
-      <p> Welcome to Melamine Furnitures! Here, you will find a wide selection of high-quality, custom-designed melamine furniture ready to enhance your home or office space. Our aim is to provide you with a visual product catalog, allowing you to explore the colors and textures we offer. Additionally, we will provide detailed information about the materials, available sizes, and customization options, enabling you to make well-informed decisions.
+      <p>Welcome to Melamine Furnitures! Here, you will find a wide selection of high-quality, custom-designed melamine furniture ready to enhance your home or office space. Our aim is to provide you with a visual product catalog, allowing you to explore the colors and textures we offer. Additionally, we will provide detailed information about the materials, available sizes, and customization options, enabling you to make well-informed decisions.
         Browse through our extensive catalog of melamine furniture, ranging from elegant cabinets and shelves to modern tables and desks. Each product will be accompanied by high-quality images, allowing you to appreciate the details and envision how they would look in your space. We will also provide detailed descriptions, highlighting the distinctive features of each item.
         We understand that every customer has unique needs and preferences. In this section, we will provide comprehensive information about the high-quality materials we use in crafting our melamine furniture. Furthermore, we will emphasize the available customization options, such as colors, finishes, and styles. We want you to feel involved in the design process and find the perfect piece that aligns with your style and requirements.
         To assist you in making informed decisions, we will provide detailed information about available sizes, delivery options, and any other relevant details you should consider when purchasing our furniture. We will also provide a contact form for personalized inquiries or requesting specific quotes. Our team will be delighted to answer all your questions and provide the assistance you need.</p>
     </section>
-   <!-- Slideshow container -->
-<div class="slideshow-container">
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/dada_design-mpP3o5q0Opg-unsplash.jpg" style="width:100%" alt="bedroom image">
-    <div class="Bedroom">Caption Text</div>
-  </div>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/dada_design-mpP3o5q0Opg-unsplash.jpg" style="width:100%" alt="bedroom image">
+        <div class="Bedroom">Caption Text</div>
+      </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/vestidor-madera-escandinava-lujo-renderizado-3d-armario-mesa-maquillaje.jpg" style="width:100%" alt="wardrove image">
-    <div class="Wardroves">Caption Two</div>
-  </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/vestidor-madera-escandinava-lujo-renderizado-3d-armario-mesa-maquillaje.jpg" style="width:100%" alt="wardrobe image">
+        <div class="Wardrobes">Caption Two</div>
+      </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/mujer-hombre-que-trabajan-computadora-portatil-casa-cocina-moderna.jpg" style="width:100%" alt="kitchen image">
-    <div class="Kitchen">Caption Three</div>
-  </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/mujer-hombre-que-trabajan-computadora-portatil-casa-cocina-moderna.jpg" style="width:100%" alt="kitchen image">
+        <div class="Kitchen">Caption Three</div>
+      </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
   </main>
   <footer>
     <div class="footer-section">
@@ -79,25 +79,27 @@
   <script>
     let slideIndex = 0;
     showSlides();
-    
+
     function showSlides() {
       let i;
       let slides = document.getElementsByClassName("mySlides");
       let dots = document.getElementsByClassName("dot");
       for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+        slides[i].style.display = "none";
       }
       slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
-    </script>
-    
+  </script>
+
 </body>
 
 </html>
