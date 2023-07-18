@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Our Furniture</title>
   <link type="text/css" rel="stylesheet" href="styles/styles.css">
 </head>
@@ -22,43 +22,37 @@
     </nav>
   </header>
   
-  <main><!DOCTYPE html>
-    <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <body>
-    
+  <main>
     <h2 style="text-align:center">Slideshow Gallery</h2>
-    
     <div class="container">
       <div class="mySlides">
         <div class="kitchen design">1 / 6</div>
-        <img src="images/filmreal-studio-znGsTrQi8Ik-unsplash.jpg" style="width:100%">
+        <img src="images/filmreal-studio-znGsTrQi8Ik-unsplash.jpg" style="width:100%" alt="kitchen picture">
       </div>
     
       <div class="mySlides">
         <div class="bedroom design">2 / 6</div>
-        <img src="images/dada_design-mpP3o5q0Opg-unsplash.jpg" style="width:100%">
+        <img src="images/dada_design-mpP3o5q0Opg-unsplash.jpg" style="width:100%" alt="bedroom picture">
       </div>
     
       <div class="mySlides">
         <div class="modern kitchen">3 / 6</div>
-        <img src="images/pexels-saviesa-home-2089696.jpg" style="width:100%">
+        <img src="images/pexels-saviesa-home-2089696.jpg" style="width:100%" alt="kitchen picture">
       </div>
         
       <div class="mySlides">
         <div class="kitchen table">4 / 6</div>
-        <img src="images/pickawood-oPcTFzIckGE-unsplash.jpg" style="width:100%">
+        <img src="images/pickawood-oPcTFzIckGE-unsplash.jpg" style="width:100%" alt="table and chairs">
       </div>
     
       <div class="mySlides">
         <div class="wardroves">5 / 6</div>
-        <img src="images/vestidor-madera-escandinava-lujo-renderizado-3d-armario-mesa-maquillaje.jpg" style="width:100%">
+        <img src="images/vestidor-madera-escandinava-lujo-renderizado-3d-armario-mesa-maquillaje.jpg" style="width:100%" alt="wardrove picture">
       </div>
         
       <div class="mySlides">
         <div class="bedroom">6 / 6</div>
-        <img src="images/christopher-jolly-GqbU78bdJFM-unsplash.jpg" style="width:100%">
+        <img src="images/christopher-jolly-GqbU78bdJFM-unsplash.jpg" style="width:100%" alt="a bed picture">
       </div>
         
       <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -91,38 +85,35 @@
     </div>
     
     <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
+      let slideIndex = 1;
+      showSlides(slideIndex);
     
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("demo");
-      let captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
       }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
+    
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
     </script>
-        
-    </body>
-    </html> 
   </main>
   
   <footer>
@@ -136,7 +127,5 @@
       <p><a href="site-plan.html">Site Plan</a></p>
     </div>
   </footer>
-
 </body>
-
 </html>
