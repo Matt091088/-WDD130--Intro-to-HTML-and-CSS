@@ -7,6 +7,7 @@ body {
 
 header {
   display: flex;
+  flex-direction: column;
   background-color: #c89917;
   height: 300px;
   padding: 20px;
@@ -14,8 +15,13 @@ header {
   text-align: center;
 }
 
+.logo {
+  position: static;
+}
+
 
 .logo img {
+  float: left;
   height: 200px;
   width: 200px;
   margin-right: 10px;
