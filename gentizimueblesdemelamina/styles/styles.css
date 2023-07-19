@@ -7,7 +7,6 @@ body {
 
 header {
   display: flex;
-  flex-direction: column;
   background-color: #c89917;
   height: 300px;
   padding: 20px;
@@ -15,11 +14,6 @@ header {
   text-align: center;
 }
 
-
-.logo {
-  position: absolute;
-  
-}
 
 .logo img {
   height: 200px;
@@ -41,7 +35,6 @@ nav a {
 
 .navigation { 
   margin-top: auto;
-  display: block;
   
 }
 
@@ -92,13 +85,13 @@ main {
 footer {
   position: relative;
 }
-
 .footer-section {
-  position: absolute;
-  bottom: -10px;
+  margin-top: auto;
+  padding: 20px 0;
   width: 100%;
   text-align: center;
 }
+
 
 
 
