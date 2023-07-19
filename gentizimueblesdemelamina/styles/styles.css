@@ -108,23 +108,13 @@ footer {
   width: 2500px;
 }
 
-.image-container {
-  flex: 1;
-  padding: 20px;
-}
-
 .text-container {
-  flex: 1;
-  padding: 20px;
-  width: 2500px;
-  text-align: justify;
-  font-size: 1.2em;
-}
-.image-container img {
-  width: 100%; 
-  height: auto; 
+  max-width: 1000px;
+  margin: 0 auto; 
 }
 
+.image-container img {
+  max-width: 100%;
 
 
 
