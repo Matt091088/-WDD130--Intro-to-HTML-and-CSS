@@ -41,6 +41,7 @@ nav a {
 
 .navigation { 
   margin-top: auto;
+  display: block;
   
 }
 
